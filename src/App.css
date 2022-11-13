@@ -1,9 +1,25 @@
 /* Add styling for your page here */
 
 .App {
-
 }
 
 .BakeryItem {
-  
+}
+
+.image {
+  width: 300px;
+}
+.icon {
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 30px;
+  cursor: pointer;
 }
